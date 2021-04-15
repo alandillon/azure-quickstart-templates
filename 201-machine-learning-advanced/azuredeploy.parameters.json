@@ -6,10 +6,7 @@
       "value": "GEN-UNIQUE"
     },
     "location": {
-      "value": "southcentralus"
-    },
-    "sku": {
-      "value": "enterprise"
+      "value": "westcentralus"
     },
     "storageAccountBehindVnet": {
       "value": "true"
@@ -22,9 +19,6 @@
     },
     "containerRegistrySku": {
       "value": "Premium"
-    },
-    "containerRegistryBehindVnet": {
-      "value": "true"
     },
     "privateEndpointType": {
       "value": "AutoApproval"

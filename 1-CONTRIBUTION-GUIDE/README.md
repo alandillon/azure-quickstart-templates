@@ -60,7 +60,7 @@ one will be created by the script or reused if it already exists (think of this 
 
 ## Contribution Guide
 
-To make sure your template is added to Azure.com index, please follow these guidelines. Any templates that are out of compliance will be added to the **blacklist** and not be indexed on Azure.com
+To make sure your template is added to Azure.com index, please follow these guidelines. Any templates that are out of compliance will be added to the **blocklist** and not be indexed on Azure.com
 
 ## Files, folders and naming conventions
 
@@ -90,6 +90,12 @@ To make sure your template is added to Azure.com index, please follow these guid
 1. Any resources that need to be setup outside the template should be named prefixed with existing (e.g. existingVNET, existingDiagnosticsStorageAccount and provision using a [prereqs](#template-pre-requisites) template.
 
 ![alt text](/1-CONTRIBUTION-GUIDE/images/namingConvention.png "Files, folders and naming conventions")
+
++ Pull Request Guidelines
+1. A single PR should reference a single template.  There shouldn't be multiple templates being referenced in a single PR
+1. For each PR created the contributor needs to acknowledge the Contribution and Best Practices Guide.
+1. Each PR will run through the [arm-ttk](https://github.com/Azure/arm-ttk) to ensure best practices
+1. Part of the pre-merge checks will be a deployment to both the Public and USGov clouds
 
 ## README.md
 
